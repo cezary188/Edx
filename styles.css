@@ -19,7 +19,7 @@ h1 {
 	border: 1px solid grey;
 }
 
-// div {
+div > #section_1 {                      // znaczek wiekszosci mowi zeby pokolorowac wszystkie divy oprocz section_1 ktora takze jest divem
 	background-color: rgb(20,07,187);
 	width: 100px;
 	height: 100px;
@@ -27,6 +27,17 @@ h1 {
 	padding: 50px; // odleglosc samego textu (zawartosci div)
 
 }		
+
+
+
+input[type=text] {
+	background-color: purple;
+
+}
+
+button:hover {
+	background-color: #5bb710 ;
+}
 
 #section_1 {
 	font-family: Arial;
