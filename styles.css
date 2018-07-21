@@ -19,11 +19,16 @@ h1 {
 	border: 1px solid grey;
 }
 
-div {
+// div {
 	background-color: rgb(20,07,187);
 	width: 100px;
 	height: 100px;
 	margin: 30px; // margines calego elementu div
 	padding: 50px; // odleglosc samego textu (zawartosci div)
 
-}			
+}		
+
+#section_1 {
+	font-family: Arial;
+	font-weight: italic;
+}	
